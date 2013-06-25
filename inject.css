@@ -1,0 +1,43 @@
+.videoSticker_verified{
+    position: relative;
+}
+
+.videoSticker {
+    position: fixed !important;
+    z-index: 999;
+    border: 2px solid white !important;
+    left: 0px;
+    bottom: 0;
+    box-shadow: 0 0 0px 5px #3b5998, 0px 0px 5px 5px;
+    border-radius: 0 5px 0 0;
+}
+
+.videoSticker_close {
+    color: white;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    border-radius: 0 5px 0 5px;
+    width: 22px;
+    height: 20px;
+    cursor: pointer;
+
+    text-indent: -500px;
+    overflow: hidden;
+    background: rgba(0,0,0,.7) url(chrome-extension://__MSG_@@extension_id__/pop.png) no-repeat center;
+}
+
+.videoSticker .videoSticker_close{
+    background: rgba(0,0,0,.7) url(chrome-extension://__MSG_@@extension_id__/back.png) no-repeat center;
+}
+
+.videoSticker[video-order="1"] { left: 20px; bottom: -5px; }
+.videoSticker[video-order="2"] { left: 40px; bottom: -10px; }
+.videoSticker[video-order="3"] { left: 60px; bottom: -15px; }
+.videoSticker[video-order="4"] { left: 80px; bottom: -20px; }
+.videoSticker[video-order="5"] { left: 100px; bottom: -25px; }
+.videoSticker[video-order="6"] { left: 120px; bottom: -30px; }
+.videoSticker[video-order="7"] { left: 140px; bottom: -35px; }
+.videoSticker[video-order="8"] { left: 160px; bottom: -40px; }
+.videoSticker[video-order="9"] { left: 180px; bottom: -45px; }
+.videoSticker[video-order="10"] { left: 200px; bottom: -50px; }
